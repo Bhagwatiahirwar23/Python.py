@@ -1,9 +1,22 @@
-# Write a function to swap the value of two variable
-x = int(input("Enter a value:  "))
-y = int(input("Enter b value:  "))
-x,y = y,x
-print("before swapping :",x)
-print("after swapping : ",y)
+# algorithm swap the value two numbers
+    # Without
+    # arguments and without
+    # return value:
+
+def swap():
+        x = int(input("Enter value: "))
+        y = int(input("Enter value: "))
+        print("Before swapping a:", x)
+        print("Before swapping b:", y)
+        # logic to swap without using third variable
+        x, y = y, x
+        print("After swapping a becomes:", x)
+        print("After swapping b becomes:", y)
+
+swap()
+
+
+
 
 
 
